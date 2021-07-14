@@ -17,7 +17,6 @@ def show_data():
             confirmed_label = tk.Label(window, text = "Total Confirmed Covid Cases: " + str(total_confirmed))
             confirmed_label.pack()
 
-
 country_entry = tk.Entry(window)
 country_entry.pack()
 search_button = tk.Button(window, text="Search", command=show_data)
